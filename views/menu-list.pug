@@ -1,0 +1,27 @@
+extends common/layout
+
+block content
+  h1.page-title Administer Menu 
+  h2 Admin Links
+  button 
+    a(href="/admin/menu/add") Add New Link 
+  table
+    thead 
+      tr 
+        th Link Name
+        th Link 
+        th Update 
+        th Delete
+    tbody 
+      each link in links 
+        tr 
+          td #{link.name} 
+          td #{link.path}
+          td 
+            form(action="/admin/menu/edit")
+              input(type="hidden", name="linkId", value=link._id) 
+              button(type="submit") Edit
+          td 
+            form(action="/admin/menu/delete") 
+              input(type="hidden", name="linkId", value=link._id)
+              button(type="submit") Delete

@@ -1,0 +1,18 @@
+extends common/layout
+
+block content
+  h1 Edit Rental
+  form(action=`/listings/edit/${rental._id}`, method="POST")
+    label(for="title") Title:
+    input(type="text", name="title", id="title", value=rental.title)
+    
+    label(for="description") Description:
+    textarea(name="description", id="description") #{rental.description}
+    
+    label(for="price") Price:
+    input(type="number", name="price", id="price", value=rental.price)
+    
+    label(for="location") Location:
+    input(type="text", name="location", id="location", value=rental.location)
+    
+    input(type="submit", value="Save Changes")

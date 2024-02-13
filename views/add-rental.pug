@@ -1,0 +1,14 @@
+extends common/layout
+
+block content
+  h1 Add Rental
+  form(action="/listings/add", method="POST")
+    label(for="title") Title:
+    input(type="text", name="title", id="title")
+    label(for="description") Description:
+    textarea(name="description", id="description")
+    label(for="price") Price:
+    input(type="number", name="price", id="price")
+    label(for="location") Location:
+    input(type="text", name="location", id="location")
+    button(type="submit") Add Rental

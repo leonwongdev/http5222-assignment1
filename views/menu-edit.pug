@@ -1,0 +1,19 @@
+extends common/layout
+
+block content
+  form(method="post",action="/admin/menu/edit/submit")
+    label(for="link-id") 
+    input(type="hidden", id="link-id", name="linkId", value=editLink._id)
+    div
+      label(for="link-weight") Weight
+      input(type="text", id="link-weight", name="weight", value=editLink.weight)
+    
+    div
+      label(for="link-path") Path
+      input(type="text", id="link-path", name="path", value=editLink.path)
+    
+    div
+      label(for="link-name") Link Name
+      input(type="text", id="link-name", name="name", value=editLink.name)
+
+    button(type="submit") Edit

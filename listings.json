@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Spacious Apartment in Downtown Toronto",
+    "description": "Beautiful apartment with stunning views of the city.",
+    "price": 2000,
+    "location": "Downtown Toronto"
+  },
+  {
+    "title": "Cozy Condo near CN Tower",
+    "description": "Modern condo with convenient access to attractions.",
+    "price": 1500,
+    "location": "CN Tower"
+  },
+  {
+    "title": "Luxury House in Yorkville",
+    "description": "Elegant house with high-end amenities.",
+    "price": 5000,
+    "location": "Yorkville"
+  },
+  {
+    "title": "Charming Cottage in Muskoka",
+    "description": "Quaint cottage surrounded by nature.",
+    "price": 800,
+    "location": "Muskoka"
+  },
+  {
+    "title": "Beachfront Villa in Miami",
+    "description": "Stunning villa with direct beach access.",
+    "price": 3000,
+    "location": "Miami"
+  },
+  {
+    "title": "Mountain Retreat in Banff",
+    "description": "Cozy cabin nestled in the mountains.",
+    "price": 1200,
+    "location": "Banff"
+  }
+]

@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Torental - Toronto Rental
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    block scripts 
+      script(src="/scripts/common.js") 
+
+  body
+    header(class='navbar navbar-expand-lg navbar-light bg-light')
+      h1(class='navbar-brand')
+        a(href='/') Torental - Toronto Rental
+      ul(class='navbar-nav ml-auto')
+        li(class='nav-item')
+          a(class='nav-link', href='/') Home
+        li(class='nav-item')
+          a(class='nav-link', href='/about') About Us
+        li(class='nav-item')
+          a(class='nav-link', href='/listings') Listing
+    main
+      block content
+    footer
+      p(style='margin: 0;') Copyright © 2024 HTTP5222 Lap Wang Wong N01612422
