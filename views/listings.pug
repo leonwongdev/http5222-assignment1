@@ -13,8 +13,9 @@ block content
               .card-body
                 h5.card-title.listing__title= listing.title
                 p.card-text.listing__description= listing.description
-                p.card-text Price: #{listing.price}
+                p.card-text Price(CAD/Month): #{listing.price}
                 p.card-text Location: #{listing.location}
+                a.button--dark Contact Seller
                 //- p 
                 //-   a.btn.btn-primary(href=`/listings/edit/${listing._id}`) Edit Listing
                 //- p 

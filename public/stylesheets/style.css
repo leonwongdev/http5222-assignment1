@@ -115,6 +115,27 @@ footer {
   background-color: #b50606;
 }
 
+.card {
+  animation: slideIn 1s ease;
+}
+
+.card .button--dark {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 /* @media (max-width: 768px) {
   .navbar {
     display: flex;
