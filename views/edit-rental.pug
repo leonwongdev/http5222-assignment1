@@ -3,16 +3,20 @@ extends common/layout
 block content
   h1 Edit Rental
   form(action=`/listings/edit/${rental._id}`, method="POST")
-    label(for="title") Title:
-    input(type="text", name="title", id="title", value=rental.title)
+    .form-group
+      label(for="title") Title:
+      input.form-control(type="text", name="title", id="title", value=rental.title)
     
-    label(for="description") Description:
-    textarea(name="description", id="description") #{rental.description}
+    .form-group
+      label(for="description") Description:
+      textarea.form-control(name="description", id="description") #{rental.description}
     
-    label(for="price") Price:
-    input(type="number", name="price", id="price", value=rental.price)
+    .form-group
+      label(for="price") Price:
+      input.form-control(type="number", name="price", id="price", value=rental.price)
     
-    label(for="location") Location:
-    input(type="text", name="location", id="location", value=rental.location)
+    .form-group
+      label(for="location") Location:
+      input.form-control(type="text", name="location", id="location", value=rental.location)
     
-    input(type="submit", value="Save Changes")
+    button.btn.btn-primary.mt-3(type="submit") Edit Rental

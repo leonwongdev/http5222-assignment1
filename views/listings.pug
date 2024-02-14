@@ -1,17 +1,21 @@
 extends common/layout
 
 block content
-  a(href="/listings/add") Add Listing
-
-  ul.listings
-    each listing in rentals
-      li.listings__item
-        h3.listings__title= listing.title
-        p.listings__description= listing.description
-        p.listings__price Price: #{listing.price}
-        p.listings__location Location: #{listing.location}
-        div
-          a(href=`/listings/edit/${listing._id}`) Edit Listing
-        div
-          a.listings__delete-btn(href=`/listings/delete/${listing._id}`) Delete Listing
-
+  div.listing__background
+    div.container
+      a.button--dark(href="/listings/add") Add New Listing
+      h1.mt-2.mb-3.listing_page__title List of Properties
+      div.row
+        each listing in rentals
+          .col-md-4
+            .card.mb-3
+              img.card-img-top(src=listing.image, alt=listing.title) 
+              .card-body
+                h5.card-title.listing__title= listing.title
+                p.card-text.listing__description= listing.description
+                p.card-text Price: #{listing.price}
+                p.card-text Location: #{listing.location}
+                //- p 
+                //-   a.btn.btn-primary(href=`/listings/edit/${listing._id}`) Edit Listing
+                //- p 
+                //-   a.btn.btn-danger(href=`/listings/delete/${listing._id}`) Delete Listing

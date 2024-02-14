@@ -1,14 +1,22 @@
 extends common/layout
 
 block content
-  h1 Add Rental
-  form(action="/listings/add", method="POST")
-    label(for="title") Title:
-    input(type="text", name="title", id="title")
-    label(for="description") Description:
-    textarea(name="description", id="description")
-    label(for="price") Price:
-    input(type="number", name="price", id="price")
-    label(for="location") Location:
-    input(type="text", name="location", id="location")
-    button(type="submit") Add Rental
+  div.container
+    h1.add-rental__title Add Rental
+    form(action="/listings/add", method="POST", class="form")
+      .form-group
+        label(for="title") Title:
+        input.form-control(type="text", name="title", id="title", class="form-control")
+      .form-group
+        label(for="description") Description:
+        textarea.form-control(name="description", id="description", class="form-control")
+      .form-group
+        label(for="price") Price:
+        input.form-control(type="number", name="price", id="price", class="form-control")
+      .form-group
+        label(for="location") Location:
+        input.form-control(type="text", name="location", id="location", class="form-control")
+      .form-group
+        label(for="image") Image URL:
+        input.form-control(type="text", name="image", id="image", class="form-control")
+      button.mt-3(type="submit", class="btn btn-primary") Add Rental
