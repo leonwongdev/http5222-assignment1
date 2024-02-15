@@ -1,36 +1,42 @@
 [
   {
     "title": "Spacious Apartment in Downtown Toronto",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Beautiful apartment with stunning views of the city.",
     "price": 2000,
     "location": "Downtown Toronto"
   },
   {
     "title": "Cozy Condo near CN Tower",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Modern condo with convenient access to attractions.",
     "price": 1500,
     "location": "CN Tower"
   },
   {
     "title": "Luxury House in Yorkville",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Elegant house with high-end amenities.",
     "price": 5000,
     "location": "Yorkville"
   },
   {
     "title": "Charming Cottage in Muskoka",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Quaint cottage surrounded by nature.",
     "price": 800,
     "location": "Muskoka"
   },
   {
     "title": "Beachfront Villa in Miami",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Stunning villa with direct beach access.",
     "price": 3000,
     "location": "Miami"
   },
   {
     "title": "Mountain Retreat in Banff",
+    "image":"https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Cozy cabin nestled in the mountains.",
     "price": 1200,
     "location": "Banff"

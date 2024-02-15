@@ -2,9 +2,10 @@ const express = require("express");
 const path = require("path");
 const { MongoClient, ObjectId } = require("mongodb");
 
-// Set up MongoClient
-const connectionString =
-  "mongodb://torentaluser:torental123@localhost:27017/?authSource=torental";
+// // Set up MongoClient
+// const connectionString =
+//   "mongodb://torentaluser:torental123@localhost:27017/?authSource=torental";
+const connectionString = "mongodb+srv://http5222:6BCAu21ncYG8xKrS@cluster0.wrflv78.mongodb.net/?retryWrites=true&w=majority"
 const client = new MongoClient(connectionString);
 
 // Set up Express server
