@@ -14,6 +14,6 @@ The following images have been used in this project:
 
 3. **Toronto skyline**: This image is used in background of the homepage hero section.
   - Source: [Unsplash](https://unsplash.com/photos/gray-buildings-near-body-of-water-in-aerial-photo-AhmLdXl_azU)   
-  - 
+  
 4. **Toronto night view**: This image is used in background of the listing page
   - Source: [Unsplash](https://unsplash.com/photos/cityscape-at-night-stime-AxGByUaoz_o)   
